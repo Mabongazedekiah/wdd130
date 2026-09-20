@@ -74,6 +74,10 @@ h1 {
     color: white;
 }
 
-h2{
-    background-color: #ddd;
+.history h2{
+    background-color: var(--secondary-color);
+}
+
+.adventure h2 {
+    background-color: var(--accent2-color);
 }
