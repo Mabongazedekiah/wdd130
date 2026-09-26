@@ -81,3 +81,83 @@ h1 {
 .adventure h2 {
     background-color: var(--accent2-color);
 }
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+    justify-items: center;
+}
+
+header nav ul {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 200px;
+    list-style: none;
+}
+
+header img {
+    margin: 20px;
+}
+
+
+ul a {
+    text-decoration: none;
+}
+
+.flex-item {
+    border: 1px solid rgb(0 0 0/ 0.2);
+    margin: 10px;
+    font-size: large;
+    font-weight: 700;
+}
+
+#history {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    place-items: center;
+    margin: 20px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.item {
+    width: 100px;
+}
+
+.container img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer a {
+    margin: 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+
+
+
+
+
