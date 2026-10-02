@@ -1,0 +1,21 @@
+
+table {
+    border-collapse: collapse;
+    width: 50% ;
+    border: 3px solid black;
+}
+
+thead, tfoot {
+    background-color: black;
+}
+
+thead th , tfoot{
+    color: white;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+}
