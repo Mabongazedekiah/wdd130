@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page provides contact information and a form for users to be able to ask and submit questions about the company">
+    <meta name="author" content="Zedekiah Mabonga Ngala">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+   <header>
+        <img src="images/logo.jpg" alt="Water rafting company logo">
+        <nav>
+            <ul>
+                <li class="flex-item"><a href="index.html">Home</a></li>
+                <li class="flex-item"><a href="about.html">About Us</a></li>
+                <li class="flex-item"><a href="trips.html">Trips</a></li>
+                <li class="flex-item"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+   </header>
+   <main>
+    <h2 id="ah2">Mabonga Water Rafting Company</h2>
+    <address>
+        <p>125 Nzoia River Street</p>
+        <p>Luanda, Kenya</p>
+        <p>+254768103750</p>
+        <p>info@mabongarafting.com</p>
+    </address>
+    <div class="grid-container">
+    <div class="maps grid-item">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127674.17968562906!2d34.522275551082004!3d0.018374480996619556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1780013bf03d2cef%3A0x9aa560e68c5a078c!2sLuanda!5e0!3m2!1sen!2ske!4v1791122555845!5m2!1sen!2ske"
+         width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <div class="form grid-item">
+        <form>
+            <div class="form-item">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div class="form-item">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="form-item purpose">
+            <label for="purpose" id="mp">Message Purpose</label>
+            <label for="general inquiry">General Inquiry</label>
+            <input type="radio" id="r1" name="r1">
+            <label for="reservation question">Reservation Question</label>
+            <input type="radio" id="r2" name="r2">
+            <label for="website suggestion">Website Suggestion</label>
+            <input type="radio" id="r3" name="r3">
+            </div>
+            <div class="form-item">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="3"></textarea>
+            </div>
+            <div class="form-item">
+            <label for="please subscribe me to the monthly newsletter">Please Subscribe me to the monthly newsletter</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            </div>
+            <div class="form-item">
+            <button type="submit">Reach Us!</button>
+            </div>
+            
+        </form>
+    </div>
+    </div>
+
+    <h2 id="eh2">We are here to serve you!</h2>
+    <div class="employee-profile">
+    <figure>
+    <img src="images/employee1.jpg" alt="A water rafting company employee" class="employee">
+    <figcaption>Sheila</figcaption>
+    </figure>
+    <figure>
+    <img src="images/employee2.jpg" alt="Another employee" class="employee">
+    <figcaption>Mabonga</figcaption>
+    </figure>
+    <figure>
+    <img src="images/employee3.jpg" alt="Another employee" class="employee">
+    <figcaption>Ashley</figcaption>
+    </figure>
+    </div>
+
+
+   </main>
+
+    <footer class="socialmedia">
+        <p>©️ 2026, Mabonga Water Rafting Company</p>
+        <nav class="socialmedia">
+            <a href="https://wa.me/+254768103750"><img src="images/whatsapp.jpg" alt="whatsapp icon"></a>
+            <a href="https://facebook.com" ><img src="images/facebook.jpg" alt="facebook icon"></a>
+            <a href="https://instagram.com" ><img src="images/instagram.jpg" alt="instagram icon"></a>
+        </nav>
+    </footer>
+
+   </main> 
+</body>
+</html>
