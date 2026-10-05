@@ -1,8 +1,8 @@
 :root{
-  --primary-color:#055a05; /*forest green */
-  --secondary-color:#f4a261;/* warm sand*/
+  --primary-color: forestgreen;
+  --secondary-color: antiquewhite;/* warm sand*/
   --accent1-color:#264653;/* dark slate blue*/
-  --accent2-color:#e9c46a;/*light golden yellow*/
+  --accent2-color: antiquewhite;/*light golden yellow*/
   --heading-font:"Times New Roman", "Georgia", serif;
   --body-font:Arial, Helvetica, sans-serif; 
 }
