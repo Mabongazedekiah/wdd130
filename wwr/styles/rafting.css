@@ -1,8 +1,8 @@
 :root{
-  --primary-color: forestgreen;
-  --secondary-color: antiquewhite;/* warm sand*/
+  --primary-color: white;
+  --secondary-color: navy;/* warm sand*/
   --accent1-color:#264653;/* dark slate blue*/
-  --accent2-color: antiquewhite;/*light golden yellow*/
+  --accent2-color: navy;/*light golden yellow*/
   --heading-font:"Times New Roman", "Georgia", serif;
   --body-font:Arial, Helvetica, sans-serif; 
 }
@@ -54,7 +54,7 @@ nav, p, section, article {
     padding: 10px;
     text-align: center;
     opacity: 1;
-    background-color: var(--accent-color);
+    background-color: var(--accent2-color);
     color: #fff
 }
 
@@ -220,7 +220,7 @@ input, textarea , button{
 
  button {
     width: 200px;
-    background-color: navy;
+    background-color: blue;
     color: white;
     border-radius: 10px;
     font-weight: bolder;
@@ -242,15 +242,16 @@ input, textarea , button{
 
  button:hover {
     background-color: forestgreen;
+    cursor: pointer;
  }
 
  #eh2 {
-    background-color: antiquewhite;
+    background-color: var(--accent2-color);
  }
  
  .c-h1 {
-    background-color: antiquewhite;
-    color: darkgreen;
+    background-color:var(--accent2-color);
+    color: var(--primary-color);
     text-align: center;
  }
     
