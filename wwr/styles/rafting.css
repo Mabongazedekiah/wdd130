@@ -28,7 +28,7 @@ h1, h2 {
     color: var(--primary-color);
 }
 
-nav, p, section, article {
+nav,p, section, article {
     margin: 10px;
     padding: 5px;
 }
@@ -121,7 +121,7 @@ ul a {
     margin: 20px;
 }
 
-h2 {
+h2  {
     display: flex;
     justify-content: center;
 }
@@ -173,7 +173,7 @@ address {
 
 iframe {
     width: 400px;
-    height: 400px;
+    height: 480px;
     margin: 1rem auto;
 }
 
@@ -193,6 +193,9 @@ iframe {
 
 form {
     display: grid;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    background-color: rgb(0 0 0 / 0.1);
+    margin: 1.5rem auto;
 }
 
 .form-item {
@@ -202,6 +205,14 @@ form {
 input, textarea , button{
     padding: 0.5rem;
 }
+
+input, textarea {
+    width: 300px;
+}
+
+/* input[type="checkbox"] {
+    margin-right: 100px;
+} */
 
 #r1, #r2, #r3, #r4 {
     display: block;
@@ -254,9 +265,51 @@ input, textarea , button{
     color: var(--primary-color);
     text-align: center;
  }
-    
- 
 
+ .home-h2 {
+    color: navy;
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+
+ }
+
+ #home-p {
+    margin: 1rem auto;
+ }
+ .service-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px auto;
+ }
+
+ .service {
+    height: auto;
+    width: 250px;
+ }
+    
+
+ aside p {
+    margin: 1rem auto;
+ }
+
+ .aside-form {
+    margin: 1rem auto;
+ }
+
+ aside form {
+    justify-content: flex-start;
+    border: solid 1px rgb(0 0 0/ 0.2);
+    width: 60%;
+    background-color: rgb(0 0 0/ 0.1);
+ }
+
+ aside input {
+    width: 350px;
+ }
+ 
 
 
 
