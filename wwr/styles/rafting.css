@@ -325,8 +325,6 @@ input, textarea {
     justify-content: space-evenly;
  }
 
- 
-
  .trips-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
