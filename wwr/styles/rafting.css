@@ -121,10 +121,11 @@ ul a {
     margin: 20px;
 }
 
-h2  {
+h2 {
     display: flex;
     justify-content: center;
 }
+
 
 .container {
     display: flex;
@@ -267,20 +268,23 @@ input, textarea {
  }
 
  .home-h2 {
-    color: navy;
+    color: white;
     margin: 10px auto;
     display: flex;
     justify-content: flex-start;
-    background-color: antiquewhite;
+    background-color: navy;
 
  }
 
- #home-p {
+ .home-p {
     margin: 1rem auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-weight:500;
  }
  .service-profile {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-evenly;
     margin: 10px auto;
  }
@@ -308,6 +312,47 @@ input, textarea {
 
  aside input {
     width: 350px;
+ }
+
+ .beginner {
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+
+ .beginner img , .trips img{
+    width: 200px;
+    height: auto;
+    justify-content: space-evenly;
+ }
+
+ 
+
+ .trips-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1.5rem auto;
+ }
+ 
+
+ aside table{
+    width: 100%;
+    height: 200px;
+    border: 3px solid rgb(0 0 0/ 0.9);
+    border-collapse: collapse;
+    margin: 1.5rem auto;
+    background-color: aliceblue;
+ }
+
+ table td {
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 700;
+ }
+
+ th {
+    background-color: black;
+    color: white;
+    font-weight: 900;
  }
  
 
