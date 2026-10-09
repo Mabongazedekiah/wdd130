@@ -325,6 +325,11 @@ input, textarea {
     justify-content: space-evenly;
  }
 
+ #trip-h2 {
+    display: block;
+    text-align: center;
+ }
+
  .trips-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
